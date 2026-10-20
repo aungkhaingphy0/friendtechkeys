@@ -1,0 +1,5 @@
+# Keep LF everywhere, and never touch the vendored library's bytes:
+# index.html pins its exact sha384 hash (Subresource Integrity).
+* text=auto eol=lf
+vendor/*.js -text
+*.jpg binary
